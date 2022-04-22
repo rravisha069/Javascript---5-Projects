@@ -1,0 +1,29 @@
+.container-1 {
+    border: 1px solid black;
+    margin: 0 auto;
+    width: 75%;
+    text-align: center;
+}
+
+.flex-container-1 {
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.flex-container-1 img:hover {
+    box-shadow: 0px 10px 25px blue;
+}
+
+.img1 {
+    box-shadow: 0px 10px 25px blue;
+}
+
+.img3 {
+    box-shadow: 0px 10px 25px red;
+}
+
+.img3:hover {
+    box-shadow: 0px 10px 25px red !important;
+}

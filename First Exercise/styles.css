@@ -1,0 +1,14 @@
+.container-1 {
+    border: 1px solid black;
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.flex-container-1 {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    justify-content: space-around;
+}

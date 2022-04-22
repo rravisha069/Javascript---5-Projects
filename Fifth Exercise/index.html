@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container container-5">
+        <h2>Challenge 5: Black Jack Game</h2>
+        <h3><span id="currentGameResult">Let's play</span></h3>
+
+        <div class="playArea">
+            <div class="flex-container-5">  
+                <div id="youDiv" class="youAndDealer">
+                    <h2>You: <span id="yourBlackJackPts">0</span></h2>
+                </div>
+                <div id="dealerDiv" class="youAndDealer">
+                    <h2>Dealer: <span id="dealerBlackJackPts">0</span></h2>
+                </div>
+            </div>
+
+            <div class="flex-container-5">
+                <div class="buttons">
+                    <button id="hitButton" class="btn btn-primary">Hit</button>
+                    <button id="standButton" class="btn btn-warning">Stand</button>
+                    <button id="dealButton" class="btn btn-danger">Deal</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="flex-container-5">
+            <table>
+                <tr>
+                    <th>Win</th>
+                    <th>Lose</th>
+                    <th>Draw</th>
+                </tr>
+                <tr>
+                    <td><span id="wins">0</span></td>
+                    <td><span id="loses">0</span></td>
+                    <td><span id="draws">0</span></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    
+    <script src="./home.js"></script>
+</body>
+</html>
